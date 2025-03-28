@@ -24,7 +24,7 @@ jobs:
         with:
           jq_selector: "."
 
-  merge-debug:
+  merge-pr-debug:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
