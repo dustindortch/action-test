@@ -7,6 +7,12 @@ on:
       - synchronize
       - closed
 
+permissions:
+  actions: read
+  contents: read
+  id-token: write
+  pull-requests: write
+
 jobs:
   new-pr-debug:
     if: (github.event.action == 'opened' || github.event.action == 'synchronize')
