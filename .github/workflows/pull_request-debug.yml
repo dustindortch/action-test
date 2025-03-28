@@ -2,16 +2,33 @@
 name: Debug
 on:
   pull_request:
+    branches:
+      - main
     types:
       - opened
       - synchronize
       - closed
 
+permissions:
+  actions: read
+  contents: read
+  id-token: write
+  pull-requests: write
+
 jobs:
-  output-debug:
+  new-pr-debug:
+    if: (github.event.action == 'opened' || github.event.action == 'synchronize')
     runs-on: ubuntu-latest
     steps:
       - uses: dustindortch/github-action-explore-debug@main
         with:
-          jq_selector: ".pull_request"
+          jq_selector: "."
+
+  merge-debug:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dustindortch/github-action-explore-debug@main
+        with:
+          jq_selector: "."
 ...
