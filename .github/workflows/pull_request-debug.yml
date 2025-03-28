@@ -11,7 +11,7 @@ jobs:
   output-debug:
     runs-on: ubuntu-latest
     steps:
-      - uses: dustindortch/github-action-explore-debug
+      - uses: dustindortch/github-action-explore-debug@main
         with:
           jq_selector: ".pull_request"
 ...
