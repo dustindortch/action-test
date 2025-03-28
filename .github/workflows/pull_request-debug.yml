@@ -8,10 +8,19 @@ on:
       - closed
 
 jobs:
-  output-debug:
+  new-pr-debug:
+    if: (github.event.action == 'opened' || github.event.action == 'synchronize')
     runs-on: ubuntu-latest
     steps:
       - uses: dustindortch/github-action-explore-debug@main
         with:
-          jq_selector: ".pull_request"
+          jq_selector: "."
+
+  merge-pr-debug:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dustindortch/github-action-explore-debug@main
+        with:
+          jq_selector: "."
 ...
