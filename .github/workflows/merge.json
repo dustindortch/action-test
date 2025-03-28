@@ -1,35 +1,35 @@
 {
   "action": "closed",
-  "number": 3,
+  "number": 5,
   "pull_request": {
     "_links": {
       "comments": {
-        "href": "https://api.github.com/repos/dustindortch/action-test/issues/3/comments"
+        "href": "https://api.github.com/repos/dustindortch/action-test/issues/5/comments"
       },
       "commits": {
-        "href": "https://api.github.com/repos/dustindortch/action-test/pulls/3/commits"
+        "href": "https://api.github.com/repos/dustindortch/action-test/pulls/5/commits"
       },
       "html": {
-        "href": "https://github.com/dustindortch/action-test/pull/3"
+        "href": "https://github.com/dustindortch/action-test/pull/5"
       },
       "issue": {
-        "href": "https://api.github.com/repos/dustindortch/action-test/issues/3"
+        "href": "https://api.github.com/repos/dustindortch/action-test/issues/5"
       },
       "review_comment": {
         "href": "https://api.github.com/repos/dustindortch/action-test/pulls/comments{/number}"
       },
       "review_comments": {
-        "href": "https://api.github.com/repos/dustindortch/action-test/pulls/3/comments"
+        "href": "https://api.github.com/repos/dustindortch/action-test/pulls/5/comments"
       },
       "self": {
-        "href": "https://api.github.com/repos/dustindortch/action-test/pulls/3"
+        "href": "https://api.github.com/repos/dustindortch/action-test/pulls/5"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/dustindortch/action-test/statuses/252742c1aabe1db4fb24dcc999fe834f8aa9b60e"
+        "href": "https://api.github.com/repos/dustindortch/action-test/statuses/8294408df229f3b2b0f848e50bad634411473273"
       }
     },
     "active_lock_reason": null,
-    "additions": 5,
+    "additions": 2,
     "assignee": null,
     "assignees": [],
     "author_association": "OWNER",
@@ -125,9 +125,9 @@
         },
         "private": false,
         "pulls_url": "https://api.github.com/repos/dustindortch/action-test/pulls{/number}",
-        "pushed_at": "2025-03-28T17:34:52Z",
+        "pushed_at": "2025-03-28T18:12:19Z",
         "releases_url": "https://api.github.com/repos/dustindortch/action-test/releases{/id}",
-        "size": 1,
+        "size": 12,
         "squash_merge_commit_message": "COMMIT_MESSAGES",
         "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
         "ssh_url": "git@github.com:dustindortch/action-test.git",
@@ -141,7 +141,7 @@
         "teams_url": "https://api.github.com/repos/dustindortch/action-test/teams",
         "topics": [],
         "trees_url": "https://api.github.com/repos/dustindortch/action-test/git/trees{/sha}",
-        "updated_at": "2025-03-28T17:13:01Z",
+        "updated_at": "2025-03-28T17:58:56Z",
         "url": "https://api.github.com/repos/dustindortch/action-test",
         "use_squash_pr_title_as_default": false,
         "visibility": "public",
@@ -149,7 +149,7 @@
         "watchers_count": 0,
         "web_commit_signoff_required": false
       },
-      "sha": "c19cf9ee9ad33686c11cb61717057ea68e2e008e",
+      "sha": "adf49b629838df93915c49472c4321b3d66de07b",
       "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/25554532?v=4",
         "events_url": "https://api.github.com/users/dustindortch/events{/privacy}",
@@ -174,18 +174,18 @@
     },
     "body": null,
     "changed_files": 2,
-    "closed_at": "2025-03-28T17:35:35Z",
+    "closed_at": "2025-03-28T18:13:22Z",
     "comments": 0,
-    "comments_url": "https://api.github.com/repos/dustindortch/action-test/issues/3/comments",
-    "commits": 4,
-    "commits_url": "https://api.github.com/repos/dustindortch/action-test/pulls/3/commits",
-    "created_at": "2025-03-28T17:28:17Z",
-    "deletions": 1,
-    "diff_url": "https://github.com/dustindortch/action-test/pull/3.diff",
+    "comments_url": "https://api.github.com/repos/dustindortch/action-test/issues/5/comments",
+    "commits": 2,
+    "commits_url": "https://api.github.com/repos/dustindortch/action-test/pulls/5/commits",
+    "created_at": "2025-03-28T18:06:37Z",
+    "deletions": 2,
+    "diff_url": "https://github.com/dustindortch/action-test/pull/5.diff",
     "draft": false,
     "head": {
-      "label": "dustindortch:feature/trigger-3",
-      "ref": "feature/trigger-3",
+      "label": "dustindortch:feature/trigger-5",
+      "ref": "feature/trigger-5",
       "repo": {
         "allow_auto_merge": false,
         "allow_forking": true,
@@ -274,9 +274,9 @@
         },
         "private": false,
         "pulls_url": "https://api.github.com/repos/dustindortch/action-test/pulls{/number}",
-        "pushed_at": "2025-03-28T17:34:52Z",
+        "pushed_at": "2025-03-28T18:12:19Z",
         "releases_url": "https://api.github.com/repos/dustindortch/action-test/releases{/id}",
-        "size": 1,
+        "size": 12,
         "squash_merge_commit_message": "COMMIT_MESSAGES",
         "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
         "ssh_url": "git@github.com:dustindortch/action-test.git",
@@ -290,7 +290,7 @@
         "teams_url": "https://api.github.com/repos/dustindortch/action-test/teams",
         "topics": [],
         "trees_url": "https://api.github.com/repos/dustindortch/action-test/git/trees{/sha}",
-        "updated_at": "2025-03-28T17:13:01Z",
+        "updated_at": "2025-03-28T17:58:56Z",
         "url": "https://api.github.com/repos/dustindortch/action-test",
         "use_squash_pr_title_as_default": false,
         "visibility": "public",
@@ -298,7 +298,7 @@
         "watchers_count": 0,
         "web_commit_signoff_required": false
       },
-      "sha": "252742c1aabe1db4fb24dcc999fe834f8aa9b60e",
+      "sha": "8294408df229f3b2b0f848e50bad634411473273",
       "user": {
         "avatar_url": "https://avatars.githubusercontent.com/u/25554532?v=4",
         "events_url": "https://api.github.com/users/dustindortch/events{/privacy}",
@@ -321,17 +321,17 @@
         "user_view_type": "public"
       }
     },
-    "html_url": "https://github.com/dustindortch/action-test/pull/3",
-    "id": 2425843822,
-    "issue_url": "https://api.github.com/repos/dustindortch/action-test/issues/3",
+    "html_url": "https://github.com/dustindortch/action-test/pull/5",
+    "id": 2425917353,
+    "issue_url": "https://api.github.com/repos/dustindortch/action-test/issues/5",
     "labels": [],
     "locked": false,
     "maintainer_can_modify": false,
-    "merge_commit_sha": "56b85e6002b5d281fd80b2dcdca0b3ef5395048b",
+    "merge_commit_sha": "1c7dd76d2b8db49ca247ec70ae6ceacf74e3c0e6",
     "mergeable": null,
     "mergeable_state": "unknown",
     "merged": true,
-    "merged_at": "2025-03-28T17:35:35Z",
+    "merged_at": "2025-03-28T18:13:22Z",
     "merged_by": {
       "avatar_url": "https://avatars.githubusercontent.com/u/25554532?v=4",
       "events_url": "https://api.github.com/users/dustindortch/events{/privacy}",
@@ -354,20 +354,20 @@
       "user_view_type": "public"
     },
     "milestone": null,
-    "node_id": "PR_kwDOOQUTgc6Ql3Bu",
-    "number": 3,
-    "patch_url": "https://github.com/dustindortch/action-test/pull/3.patch",
+    "node_id": "PR_kwDOOQUTgc6QmI-p",
+    "number": 5,
+    "patch_url": "https://github.com/dustindortch/action-test/pull/5.patch",
     "rebaseable": null,
     "requested_reviewers": [],
     "requested_teams": [],
     "review_comment_url": "https://api.github.com/repos/dustindortch/action-test/pulls/comments{/number}",
     "review_comments": 0,
-    "review_comments_url": "https://api.github.com/repos/dustindortch/action-test/pulls/3/comments",
+    "review_comments_url": "https://api.github.com/repos/dustindortch/action-test/pulls/5/comments",
     "state": "closed",
-    "statuses_url": "https://api.github.com/repos/dustindortch/action-test/statuses/252742c1aabe1db4fb24dcc999fe834f8aa9b60e",
-    "title": "New multi-commit merge",
-    "updated_at": "2025-03-28T17:35:35Z",
-    "url": "https://api.github.com/repos/dustindortch/action-test/pulls/3",
+    "statuses_url": "https://api.github.com/repos/dustindortch/action-test/statuses/8294408df229f3b2b0f848e50bad634411473273",
+    "title": "New PR",
+    "updated_at": "2025-03-28T18:13:22Z",
+    "url": "https://api.github.com/repos/dustindortch/action-test/pulls/5",
     "user": {
       "avatar_url": "https://avatars.githubusercontent.com/u/25554532?v=4",
       "events_url": "https://api.github.com/users/dustindortch/events{/privacy}",
@@ -470,9 +470,9 @@
     },
     "private": false,
     "pulls_url": "https://api.github.com/repos/dustindortch/action-test/pulls{/number}",
-    "pushed_at": "2025-03-28T17:34:52Z",
+    "pushed_at": "2025-03-28T18:12:19Z",
     "releases_url": "https://api.github.com/repos/dustindortch/action-test/releases{/id}",
-    "size": 1,
+    "size": 12,
     "ssh_url": "git@github.com:dustindortch/action-test.git",
     "stargazers_count": 0,
     "stargazers_url": "https://api.github.com/repos/dustindortch/action-test/stargazers",
@@ -484,7 +484,7 @@
     "teams_url": "https://api.github.com/repos/dustindortch/action-test/teams",
     "topics": [],
     "trees_url": "https://api.github.com/repos/dustindortch/action-test/git/trees{/sha}",
-    "updated_at": "2025-03-28T17:13:01Z",
+    "updated_at": "2025-03-28T17:58:56Z",
     "url": "https://api.github.com/repos/dustindortch/action-test",
     "visibility": "public",
     "watchers": 0,
