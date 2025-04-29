@@ -8,6 +8,14 @@ on:
       - opened
       - synchronize
       - closed
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Action to perform'
+        required: true
+        type: choice
+        options:
+          - destroy
 
 permissions:
   actions: read
@@ -37,4 +45,12 @@ jobs:
         env:
           HEAD_COMMIT: ${{ github.event.pull_request.head.sha }}
         run: echo "${HEAD_COMMIT}"
+
+  manual_trigger:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - id: return_event
+        run: |
+          echo "${{fromJson(github.event)}}"
 ...
