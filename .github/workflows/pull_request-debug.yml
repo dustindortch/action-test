@@ -52,5 +52,5 @@ jobs:
     steps:
       - id: return_event
         run: |
-          echo "${{fromJson(github.event)}}"
+          echo `cat $GITHUB_EVENT_PATH | jq .`
 ...
