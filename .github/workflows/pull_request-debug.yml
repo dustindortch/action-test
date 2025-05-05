@@ -47,7 +47,7 @@ jobs:
         run: echo "${HEAD_COMMIT}"
 
   manual_trigger:
-    if: github.event_name != 'pull_request'
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: dustindortch/github-action-explore-debug@main
