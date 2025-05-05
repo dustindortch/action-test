@@ -50,7 +50,7 @@ jobs:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     steps:
-      - id: return_event
-        run: |
-          echo `cat $GITHUB_EVENT_PATH | jq .`
+      - uses: dustindortch/github-action-explore-debug@main
+        with:
+          jq_selector: "."
 ...
